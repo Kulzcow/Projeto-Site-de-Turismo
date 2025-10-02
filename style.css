@@ -388,6 +388,7 @@ header img {
 
 .footer {
     display: flex;
+    align-items: flex-start;
     margin-left: -80px;
     margin-right: -80px;
     justify-content: space-between;
@@ -406,4 +407,47 @@ header img {
 .footer-title {
     margin: 0;
     font-size: 24px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.icon-btn img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-out;
+}
+
+.icon-btn img:hover {
+    transform: scale(1.2);
+}
+
+.footer-right {
+    display: flex;
+    margin-right: 80px;
+    gap: 100px;
+    align-items: flex-end;
+
+}
+
+.footer-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-right a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease;
+    
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+    color: cyan;
 }
