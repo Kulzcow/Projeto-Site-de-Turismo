@@ -165,12 +165,35 @@ header img {
     gap: 48px;
 }
 
-.twocolumn #title {
-    border: 2px solid red; 
+.twocolumn .left #title {
+    margin-top: 80px;
+    font-size: 48px;
+}
+
+.twocolumn .left #title h3 {
+    margin-top: 0;
+    margin-bottom: 48px;
 }
 
 .twocolumn .left {
     flex: 1;
+    margin-top: 48px;
+}
+
+.twocolumn .left h3:first-of-type {
+    margin-top: 0;
+}
+
+.twocolumn .left #text {
+    padding: 48px 0 48px 0;
+    font-size: 24px;
+    width: 516px;
+}
+
+.twocolumn .left p {
+    margin-bottom: 48px;
+    color: #828282;
+    text-align: justify;
 }
 
 .twocolumn .right {
@@ -187,4 +210,200 @@ header img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.columnbuttons {
+    font-size: 24px;
+}
+
+#columnbutton1 {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    margin-right: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+#columnbutton1:hover {
+    background-color: rgba(255, 255, 255, 0.267);
+    color: black;
+}
+
+#columnbutton2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#columnbutton2:hover {
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+}
+
+.card-container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container2 h1 {
+    margin-top: 180px;
+    font-size: 48px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+}
+
+.card2 {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    object-position: center;
+}
+
+.card2 img {
+    height: auto;
+    margin-left: 0%;
+    border-radius: 8px;
+    
+}
+
+.card-container2 h3 {
+    margin-bottom: 8px;
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+.card2 p {
+    color: #828282;
+    font-size: 19px;
+    width: 89%;
+    box-sizing: border-box;
+}
+
+#review-title {
+    font-size: 48px;
+    margin: 180px 0 48px 0;
+    text-align: left;
+}
+
+.review-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 32px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 48px;
+    font-size: 24px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-info .name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.reviewer-info .affiliation {
+    padding-top: 2px;
+    margin: 0;
+    color: #828282;
+}
+
+.bottom-row {
+    box-sizing: border-box;
+    padding: 89px 80px;
+    margin-top: 150px;
+    margin-left: -80px;
+    margin-right: -80px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-row h1 {
+    font-size: 48px;
+}
+
+#bottom-button1 {
+    display: inline-block;
+    padding: 20px 32px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+#bottom-button1:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+    color: black;
+}
+
+#bottom-button2 {
+    display: inline-block;
+    padding: 20px 32px;
+    margin-left: 24px;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 8px;
+    color: black;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+#bottom-button2:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    margin-left: -80px;
+    margin-right: -80px;
+    justify-content: space-between;
+    padding: 52px 80px 48px 80px;
+    background-color: white;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 24px;
 }
