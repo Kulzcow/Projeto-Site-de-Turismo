@@ -11,67 +11,88 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>  <nav>
-        <span id="Title">TurVocê</span>
+<div class="page-wrapper">
+    <header>  
+        <span id="title"><img src="./assets/airplane-takeoff-fill.svg" alt="Avião decolando">TurVocê</span>
 
 <!-- links -->
-
+<nav>
         <a class="headerlink" href="#" target="_blank">Locais</a>
         <a class="headerlink" href="#" target="_blank">Agências</a>
-        <a class="headerlink" href="#" target="_blank">Pacotes</a></nav>
+        <a class="headerlink" href="#" target="_blank">Pacotes</a>
 
 <!-- log-in button -->
-        <a href="#" id="titlebutton">Log-in</a>
+        <a href="#" id="titlebutton">Log-in</a></nav>
     </header>
 
 <!-- First title, paragraph and second log-in button, along with image-->
 
-    <h1>Turismo pelo Brasil</h1>
-    <p>Entre agora, e veja opções de viagem, pacotes exclusivos com promoções inéditas para o Brasil inteiro.</p>
-    <a href="#" id="parabutton">Entrar</a>
+ <div class="headerblurb"> 
+    <div id="blurbtitle">
+        <h1>Turismo pelo Brasil</h1>
+    </div>
+    <div id="blurbpara">
+        <p>Entre agora, e veja opções de viagem, pacotes exclusivos com promoções inéditas para o Brasil inteiro.</p>
+    </div>
+        <a href="#" id="parabutton">Entrar</a>
+</div> 
 
+
+        <img id="headerimage" src="./assets/header.jpg" alt="A hand holding a globe with a beautiful rocky background.">
+
+
+    <section id="card-title">
+        <h1>Pacotes Disponíveis</h1>
+    </section>
 <!-- Cards -->
+
+
 
 <div class="card-container">
     <div class="card">
         <a href="#" target="_blank">
-            <img src="#" alt="#">
+            <img src="./assets/card 1.jpg" alt="São Paulo in the night">
         </a>
-                <h3>São Paulo - 5 Dias</h3>
-                <p>Pacote de viagem para São Paulo, pelo período de 5 dias.</p></div>
+                    <h3>São Paulo - 5 Dias</h3>
+                <p>Pacote de viagem para São Paulo, pelo período de 5 dias.</p>
+    </div>
     <div class="card">
         <a href="#" target="_blank">
-            <img src="#" alt="#">
+            <img src="./assets/card 2.jpg" alt="Cristo Redentor">
         </a>
-                <h3>Rio de Janeiro - 7 Dias</h3>
-                <p>Pacote de viagem para Rio de Janeiro, pelo período de 7 dias.</p></div>
+                    <h3>Rio de Janeiro - 7 Dias</h3>
+                <p>Pacote de viagem para Rio de Janeiro, pelo período de 7 dias.</p>
+    </div>
     <div class="card">
         <a href="#" target="_blank">
-            <img src="#" alt="#">
+            <img src="./assets/card 3.jpg" alt="Fountain in Curitiba">
         </a>
-                <h3>Curitiba - 5 Dias</h3>
-                <p>Pacote de viagem para Curitiba, pelo período de 5 dias.</p></div>
+                    <h3>Curitiba - 5 Dias</h3>
+                <p>Pacote de viagem para Curitiba, pelo período de 5 dias.</p>
+        </div>
 
 </div>
 
 <!-- Tur+ -->
 
 <div class="twocolumn">
-    <div class="columntext">
+    <div class="left">
+        <div id="title">
+            <h3>Cliente Tur+</h3>
+        </div>
         <h3>Vantagens Exclusivas</h3>
-        <p>Diversos benefícios te esperam como cliente Tur+! Descontos, e exclusividades de sócio.</p></div>
-    <div class="columntext">
+        <p>Diversos benefícios te esperam como cliente Tur+! Descontos, e exclusividades de sócio.</p>
         <h3>Descontos de Viagens</h3>
         <p>Pacotes nunca foram tão baratos! Seja sócio Tur+ e tenha descontos por cima de milhas!</p>
-    </div>
-    <div class="columntext">
         <h3>Prêmios Mensais</h3>
         <p>Concorra a prêmios de até R$15.000,00 em pacotes de viagem Tur+. Basta ser sócio, que já estará concorrendo!</p>
+        <a href="#" id="columnbutton1">Seja Tur+</a>
+        <a href="#" id="columnbutton2">Veja como funciona</a>
     </div>
-    <div class="columnbuttons"><a href="#" id="columnbutton1">Seja Tur+</a>
-        <a href="#" id="columnbutton2">Veja como funciona</a></div>
-    <div id="feature-image">
-        <img src="#" alt="#">
+    <div class="right">
+        <div id="feature-image">
+         <img src="./assets/aside.jpg" alt="Blue sky outside of a plane window.">
+        </div>
     </div>
 </div>
     
@@ -176,6 +197,6 @@
          </div>
     </div>
 </footer>
-
+</div>
 </body>
 </html>
